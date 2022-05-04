@@ -1,12 +1,12 @@
 field = [[' ']*3 for i in range(3)]
 
-#вывод на экран поля
+
 def show():
     print(f'  0 1 2')
     for i in range(3):
         print(f'{i} {field[i] [0]} {field[i] [1]} {field[i] [2]}')
 
-# ввод пользоватлеля
+
 def ask():
     while True:
         cords = input("      введите координаты:").split()
@@ -46,7 +46,7 @@ def check_win():
             return True
     return False
 
-#номер хода
+
 num = 0
 while True:
     num += 1
